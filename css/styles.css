@@ -177,7 +177,7 @@ button:focus,
   font-weight: 400;
 }
 
-.form-control,
+.form-control, 
 textarea {
   max-width: 400px;
   background-color: whitesmoke;
@@ -190,13 +190,13 @@ textarea {
   height: 60px;
   width: 400px;
   overflow: hidden;
-  transition: 500ms linear;
+  transition: all 1s ease-in;
 }
 
 .alt-send-button {
   width: 400px;
   height: 34px;
-  transition: 500ms linear;
+  transition: all 1s ease-in;
 }
 
 .send-text {
@@ -207,7 +207,7 @@ textarea {
 }
 
 .alt-send-button:hover {
-  transform: translate3d(1px, -29px, 1px);
+  transform: translate3d(5ch, 0.4in, 5em);
 }
 
 .direct-contact-container {
