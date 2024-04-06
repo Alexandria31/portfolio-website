@@ -177,7 +177,7 @@ button:focus,
   font-weight: 400;
 }
 
-.form-control, 
+.form-control,
 textarea {
   max-width: 400px;
   background-color: whitesmoke;
@@ -190,13 +190,13 @@ textarea {
   height: 60px;
   width: 400px;
   overflow: hidden;
-  transition: all .2s ease-in-out;
+  transition: 500ms linear;
 }
 
 .alt-send-button {
   width: 400px;
   height: 34px;
-  transition: all .4s ease-in-out;
+  transition: 500ms linear;
 }
 
 .send-text {
