@@ -30,8 +30,8 @@ h1 {
 }
 
 h2 {
-  font-size: 24px;
-  font-weight: 700;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 h3 {
@@ -104,12 +104,6 @@ button:focus,
 
 .navigation-list__item--active {
   text-decoration: none;
-}
-
-.page-footer {
-  clear: both;
-  flex-direction: column;
-  text-align: center;
 }
 
 #float-text img {
@@ -309,6 +303,13 @@ textarea {
   to {
     transform: rotate(180deg);
   }
+}
+
+.page-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 1rem;
 }
 
 .social-media-list {
