@@ -109,8 +109,7 @@ button:focus,
 #float-text img {
   float: left;
   width: 250px;
-  margin-right: 40px;
-  margin-left: 180px;
+  margin: 0 auto;
   border-radius: 50%;
   box-sizing: border-box;
 }
@@ -118,7 +117,7 @@ button:focus,
 #float-text {
   display: inline-block;
   width: 80%;
-  margin-left: 100px;
+  margin-left: 10%;
   padding: 10px;
 }
 
@@ -279,7 +278,8 @@ textarea {
 }
 
 .svg-class {
-  margin-left: 450px;
+  display: block;
+  margin: 0 auto;
 }
 
 .imageM1906 {
