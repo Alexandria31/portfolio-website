@@ -170,7 +170,7 @@ button:focus,
   font-weight: 400;
 }
 
-.form-control, 
+.form-control,
 textarea {
   max-width: 400px;
   background-color: whitesmoke;
@@ -335,8 +335,8 @@ textarea {
   line-height: 60px;
   border-radius: 50%;
   color: #fff;
-  background-color: beige (27,27,27);
-  cursor: pointer; 
+  background-color: beige (27, 27, 27);
+  cursor: pointer;
   transition: all .2s ease-in-out;
 }
 
@@ -361,7 +361,7 @@ textarea {
 .social-media-list li:hover:after {
   opacity: 1;
   transform: scale(1.12);
-  transition-timing-function: cubic-bezier(0.37,0.74,0.15,1.65);
+  transition-timing-function: cubic-bezier(0.37, 0.74, 0.15, 1.65);
 }
 
 .social-media-list li:hover a {
