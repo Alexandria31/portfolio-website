@@ -107,15 +107,15 @@ button:focus,
 }
 
 #float-text img {
-  float: left;
-  width: 250px;
-  margin: 0 auto;
   border-radius: 50%;
   box-sizing: border-box;
 }
 
 #float-text {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   width: 80%;
   margin-left: 10%;
   padding: 10px;
