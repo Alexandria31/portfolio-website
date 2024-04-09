@@ -254,7 +254,7 @@ textarea {
     grid-template-rows: 1fr 1fr 1fr;
   }
 }
-@media all and (min-width: 500px) and (max-width: 750px){
+@media all and (min-width: 500px) and (max-width: 750px) {
   #grid-container {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -337,10 +337,10 @@ textarea {
   color: #fff;
   background-color: beige (27, 27, 27);
   cursor: pointer;
-  transition: all .2s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
-.social-media-list li:after {
+.social-media-list li::after {
   content: '';
   position: absolute;
   top: 0;
@@ -351,14 +351,14 @@ textarea {
   border-radius: 50%;
   opacity: 0;
   box-shadow: 0 0 0 1px #fff;
-  transition: all .2s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
 .social-media-list li:hover {
   background-color: #fff;
 }
 
-.social-media-list li:hover:after {
+.social-media-list li:hover::after {
   opacity: 1;
   transform: scale(1.12);
   transition-timing-function: cubic-bezier(0.37, 0.74, 0.15, 1.65);
