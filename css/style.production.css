@@ -191,6 +191,30 @@ textarea {
   letter-spacing: 1px;
 }
 
+/* form.invalid .input-box::before {
+  content: '';
+  position: absolute;
+  right: 12px;
+  top: 9px;
+  width: 24px;
+  height: 24px;
+  background: url(https://fadzrinmadu.github.io/hosted-assets/email-validation-check-using-javascript/invalid.png);
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+#form.valid .input-box::before {
+  content: '';
+  position: absolute;
+  right: 12px;
+  top: 9px;
+  width: 24px;
+  height: 24px;
+  background: url(https://fadzrinmadu.github.io/hosted-assets/email-validation-check-using-javascript/valid.png);
+  -webkit-background-size: cover;
+  background-size: cover;
+} */
+
 .send-button {
   margin-top: 10px;
   height: 60px;

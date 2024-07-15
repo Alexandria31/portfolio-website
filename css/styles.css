@@ -155,7 +155,7 @@ button:focus,
   margin: 10px;
 }
 
-.contact-wrapper {
+/* .contact-wrapper {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -168,49 +168,30 @@ button:focus,
 .form-horizontal {
   max-width: 400px;
   font-family: var(--font-family);
-  font-weight: 400;
+  font-weight: 400px;
+} */
+
+#submit {
+  background-color: var(--primary-color);
+  color: whitesmoke;
+  font-family: 'lato';
 }
 
-.form-control,
-textarea {
-  max-width: 400px;
-  background-color: whitesmoke;
-  color: black;
-  letter-spacing: 1px;
-}
-
-.send-button {
-  /* margin-top: 10px; */
-  height: 60px;
-  width: 400px;
-  overflow: hidden;
-  transition: all 1s ease-in;
-}
-
-.alt-send-button {
-  width: 400px;
-  height: 60px;
-  transition: all 1s ease-in;
-}
-
-.send-text {
-  display: block;
-  margin-top: 10px;
-  font: 700 12px 'Lato', sans-serif;
-  letter-spacing: 2px;
-}
-
-.alt-send-button:hover {
-  transform: rotate(0.9turn);
+#form-control {
+  width: 200px;
+  float: left;
+  margin-left: 10%;
 }
 
 .direct-contact-container {
-  max-width: 400px;
+  width: 200px;
+  float: right;
+  margin-right: 25%;
 }
 
 .contact-list {
   list-style-type: none;
-  margin-left: -30px;
+  margin-left: -60px;
   padding-right: 20px;
 }
 
@@ -223,18 +204,6 @@ textarea {
   font: 300 18px 'Lato', sans-serif;
   letter-spacing: 1.9px;
   color: #bbb;
-}
-
-.place {
-  margin-left: 62px;
-}
-
-.phone {
-  margin-left: 56px;
-}
-
-.gmail {
-  margin-left: 53px;
 }
 
 .contact-text a {

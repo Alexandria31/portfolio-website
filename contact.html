@@ -48,9 +48,11 @@
       </nav>
     </header>
     <section id="contact">
-      <h1 class="section-header">Contact me</h1>
+      <h1 class="section-header">
+        Contact me today and I will respond within 24 hours.
+      </h1>
 
-      <div class="contact-wrapper">
+      <!-- <div class="contact-wrapper">
         <form id="contact-form" class="form-horizontal" role="form">
           <div class="form-group">
             <div class="col-sm-12">
@@ -99,39 +101,58 @@
               ><span class="send-text">SEND</span>
             </div>
           </button>
-        </form>
+        </form> -->
 
-        <div class="direct-contact-container">
-          <ul class="contact-list">
-            <li class="list-item">
-              <i class="fa fa-map-marker fa-2x"
-                ><span class="contact-text place">Okinawa, Japan</span></i
-              >
-            </li>
-
-            <li class="list-item">
-              <i class="fa fa-phone fa-2x"
-                ><span class="contact-text phone"
-                  ><a href="tel:+80-3999-0590" title="Give me a call"
-                    >+80-3999-0590</a
-                  ></span
-                ></i
-              >
-            </li>
-
-            <li class="list-item">
-              <i class="fa fa-envelope fa-2x"
-                ><span class="contact-text gmail"
-                  ><a href="mailto:#" title="Send me an email"
-                    >lexymurase31@gmail.com</a
-                  ></span
-                ></i
-              >
-            </li>
-          </ul>
+      <form id="form-control">
+        <div class="Email">
+          Email:<input type="text" name="femail" required />
+          <div class="Name">
+            Name:<input type="text" name="fname" />
+            <div class="Message">
+              <!-- Message:<input type="text" name="fmessage" />  -->
+              <textarea
+                rows="10"
+                cols="25"
+                placeholder="Type your message here"
+              ></textarea>
+              <input type="submit" id="submit" value="Submit" />
+            </div>
+          </div>
         </div>
+      </form>
+
+      <div class="direct-contact-container">
+        <ul class="contact-list">
+          <li class="list-item">
+            <i class="fa fa-map-marker fa-2x"
+              ><span class="contact-text place">Okinawa, Japan</span></i
+            >
+          </li>
+
+          <li class="list-item">
+            <i class="fa fa-phone fa-2x"
+              ><span class="contact-text phone"
+                ><a href="tel:+80-3999-0590" title="Give me a call"
+                  >+80-3999-0590</a
+                ></span
+              ></i
+            >
+          </li>
+
+          <li class="list-item">
+            <i class="fa fa-envelope fa-2x"
+              ><span class="contact-text gmail"
+                ><a href="mailto:#" title="Send me an email"
+                  >lexymurase31@gmail.com</a
+                ></span
+              ></i
+            >
+          </li>
+        </ul>
       </div>
+      <!-- </div> -->
     </section>
+
     <footer class="page-footer">
       <hr />
       <ul class="social-media-list">
@@ -151,9 +172,9 @@
             target="_blank"
             class="contact-icon"
           >
-            <i class="github" aria-hidden="true"></i
-          ></a>
-          <img src="img/github.svg" alt="GitHub" />
+            <i class="github" aria-hidden="true"></i>
+            <img src="img/github.svg" alt="GitHub" />
+          </a>
         </li>
         <li>
           <a
@@ -161,12 +182,13 @@
             target="_blank"
             class="contact-icon"
           >
-            <i class="linkedin" aria-hidden="true"></i
-          ></a>
-          <img src="img/linkedin_icon.svg" alt="LinkedIn" />
+            <i class="linkedin" aria-hidden="true"></i>
+            <img src="img/linkedin_icon.svg" alt="LinkedIn" />
+          </a>
         </li>
       </ul>
     </footer>
     <script src="js/tota11y.min.js"></script>
+    <script src="scripts.js"></script>
   </body>
 </html>
